@@ -30,7 +30,7 @@ The tool produces an HTML file (`Stationary_Full_Plot.html`) displaying the inte
 │   ├── I-90-stationary-Run_1-geometry-with-ramps.csv
 │   ├── I-90-stationary-Run_2-geometry-with-ramps.csv
 │   └── ...                            # One file per run index
-├── plotter.ipynb           # Python file with Tkinter GUI and plotting code
+├── plotter.py           # Python file with Tkinter GUI and plotting code
 └── README.md
 ```
 

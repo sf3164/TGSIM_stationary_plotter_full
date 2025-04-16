@@ -1,4 +1,3 @@
-markdown
 # Vehicle Trajectory Visualization Tool full version (for TGSIM I90/I94 Stationary Data)
 
 This repository contains a Python-based interactive GUI tool for plotting vehicle trajectories from the TGSIM dataset. It allows users to filter vehicles based on simulation run index, time window, and lane-changing behavior, and generates interactive Plotly plots showing detailed movement patterns over road centerlines.

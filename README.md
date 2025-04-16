@@ -55,12 +55,16 @@ pip install pandas plotly matplotlib
 
 ## How to Use
 
-1. Launch the Python to run `plotter.py` and run all cells.
-2. A GUI window will appear.
-3. Select a **run index** to load data.
-4. Choose a **time window**, **initial lane**, and **exit lane** (or leave as "all").
-5. Select one or more vehicles from the list.
-6. Click **Plot** to generate the interactive plot.
+1. Download the TGSIM I-90/I-94 Stationary main dataset and the centerline files from the following website:
+https://data.transportation.gov/Automobiles/Third-Generation-Simulation-Data-TGSIM-I-90-I-94-S/9uas-hf8b/about_data
+2. Rename the main dataset to TGSIM_Stationary.csv and move it to the same directory as the `plotter.py` script.
+3. In the same directory as `plotter.py`, create a new folder named `Centerline`, and move all the centerline files into this folder.
+4. Launch the Python to run `plotter.py` and run all cells.
+5. A GUI window will appear.
+6. Select a **run index** to load data.
+7. Choose a **time window**, **initial lane**, and **exit lane** (or leave as "all").
+8. Select one or more vehicles from the list.
+9. Click **Plot** to generate the interactive plot.
 
 The plot will open in a browser window and also be saved as `test_319.html`.
 

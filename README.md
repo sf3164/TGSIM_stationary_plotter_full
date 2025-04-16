@@ -17,7 +17,7 @@ This repository contains a Python-based interactive GUI tool for plotting vehicl
 
 ## Example Output
 
-The tool produces an HTML file (`test_319.html`) displaying the interactive plot.
+The tool produces an HTML file (`Stationary_Full_Plot.html`) displaying the interactive plot.
 
 ## File Structure
 
@@ -28,7 +28,7 @@ The tool produces an HTML file (`test_319.html`) displaying the interactive plot
 │   ├── I-90-stationary-Run_1-geometry-with-ramps.csv
 │   ├── I-90-stationary-Run_2-geometry-with-ramps.csv
 │   └── ...                            # One file per run index
-├── trajectory_plotter.ipynb           # Jupyter Notebook with Tkinter GUI and plotting code
+├── plotter.ipynb           # Python file with Tkinter GUI and plotting code
 └── README.md
 ```
 
@@ -62,18 +62,13 @@ pip install pandas plotly matplotlib
 
 The plot will open in a browser window and also be saved as `test_319.html`.
 
-## Update History
-
-- **3/19**: Initial implementation of GUI with lane-changing filtering.
-- **3/25**: Fixed bug in lane filtering logic.
-- **4/2**: Updated plot range logic for more accurate trajectory visualization.
 
 ## Notes
 
 - Centerline CSVs must be named in the format:  
   `I-90-stationary-Run_<run_index>-geometry-with-ramps.csv`
 - These files must be placed in the `centerline/` directory relative to the notebook.
-- The code currently writes to a fixed output file (`test_319.html`) — feel free to modify this for custom output names.
+- The code currently writes to a fixed output file (`Stationary_Full_Plot.html`) — feel free to modify this for custom output names.
 
 ## License
 

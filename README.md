@@ -66,7 +66,7 @@ https://data.transportation.gov/Automobiles/Third-Generation-Simulation-Data-TGS
 8. Select one or more vehicles from the list.
 9. Click **Plot** to generate the interactive plot.
 
-The plot will open in a browser window and also be saved as `test_319.html`.
+The plot will open in a browser window and also be saved as `Stationary_Full_Plot.html`.
 
 
 ## Notes

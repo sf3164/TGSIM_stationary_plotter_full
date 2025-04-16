@@ -25,7 +25,7 @@ The tool produces an HTML file (`Stationary_Full_Plot.html`) displaying the inte
 
 ```bash
 .
-├── TGSIM_Full_Plotting.csv            # Main trajectory dataset
+├── TGSIM_Stationary.csv            # Main trajectory dataset
 ├── centerline/
 │   ├── I-90-stationary-Run_1-geometry-with-ramps.csv
 │   ├── I-90-stationary-Run_2-geometry-with-ramps.csv

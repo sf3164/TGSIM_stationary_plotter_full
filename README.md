@@ -53,7 +53,7 @@ pip install pandas plotly matplotlib
 
 ## How to Use
 
-1. Launch the Jupyter Notebook (`trajectory_plotter.ipynb`) and run all cells.
+1. Launch the Python to run `trajectory_plotter.py` and run all cells.
 2. A GUI window will appear.
 3. Select a **run index** to load data.
 4. Choose a **time window**, **initial lane**, and **exit lane** (or leave as "all").

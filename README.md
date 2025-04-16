@@ -73,7 +73,7 @@ The plot will open in a browser window and also be saved as `Stationary_Full_Plo
 
 - Centerline CSVs must be named in the format:  
   `I-90-stationary-Run_<run_index>-geometry-with-ramps.csv`
-- These files must be placed in the `centerline/` directory relative to the notebook.
+- These files must be placed in the `Centerline/` directory relative to the notebook.
 - The code currently writes to a fixed output file (`Stationary_Full_Plot.html`) — feel free to modify this for custom output names.
 
 ## License

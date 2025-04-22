@@ -1,10 +1,10 @@
 # Vehicle Trajectory Visualization Tool full version (for TGSIM I90/I94 Stationary Data)
 
-This repository contains a Python-based interactive GUI tool for plotting vehicle trajectories from the TGSIM dataset. It allows users to filter vehicles based on simulation run index, time window, and lane-changing behavior, and generates interactive Plotly plots showing detailed movement patterns over road centerlines.
+This repository contains a Python-based interactive GUI tool for plotting vehicle trajectories from the TGSIM dataset. It allows users to filter vehicles based on run index, time window, and lane-changing behavior, and generates interactive Plotly plots showing detailed movement patterns over road centerlines.
 
 ## Features
 
-- Select **run index** from available simulation runs.
+- Select **run index** from available runs.
 - Filter vehicles by **time window**, **initial lane**, and **exit lane**.
 - View vehicle **lane change counts** directly in the selection menu (in the format of "vehicle_id (lane change counts)").
 - Plot interactive **vehicle trajectories** using Plotly with hoverable data points showing:
